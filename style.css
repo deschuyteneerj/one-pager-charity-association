@@ -110,19 +110,26 @@ div img {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 2em;
 }
 
 /*Other associations*/
+#associations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #associations, ul li a {
     color: #2e3830;
 }
 
 #associations {
-    padding-left: 2em;
+    padding: 2em 0 2em 0;
 }
 
-#associations h2, #associations p, #associations ul {
-    padding-left: 2em;
+#associations p {
+    color: #2e3830;
 }
 
 /*Footer*/
@@ -172,5 +179,9 @@ h3 {
 }
 
 p {
+    font-size: 20px;
+}
+
+li a {
     font-size: 20px;
 }
