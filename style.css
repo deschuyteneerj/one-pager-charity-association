@@ -1,0 +1,95 @@
+body {
+    background-color: #e6dbc9;
+}
+/*Header*/
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #c53211;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav .menu {
+    display: flex;
+    gap: 1em;
+}
+
+header p {
+    padding-left: 1em;
+    color: #e6dbc9;
+}
+
+.menu li a {
+    padding-right: 1em;
+    color: #e6dbc9;
+}
+
+/*Hero*/
+#hero {
+    background-image: url("image/photos-gratuites-libres-de-droits-157.jpg");
+    background-size: cover;
+    padding: 15% 0 15% 0;
+}
+
+#quote a {
+    color: #2e3830;
+}
+
+.title {
+    text-align: center;
+    background-color: rgba(197, 50, 17, 0.7);
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #e6dbc9;
+}
+
+small {
+    color: #e6dbc9;
+}
+
+/*Presentation & Goals*/
+#presentation, #goals{
+    display: flex;
+    flex-direction: row;
+}
+
+.subdiv {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+div img {
+    height:75%;
+    border-radius: 10px;
+}
+
+.subdiv h2, .subdiv p {
+    color: #2e3830;
+}
+
+/*Video*/
+#video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Other associations*/
+/*Footer*/
+/*Links*/
+a {
+    text-decoration: none;
+}
